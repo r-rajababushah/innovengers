@@ -1,0 +1,52 @@
+.hotels {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+    background-color: #efefef;
+}
+
+.card .hotelsI {
+    height: 200px;
+}
+
+.card {
+    display: flex;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 2px;
+    transition: 0.3s;
+    width: 31%;
+    height: 280px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 8px;
+}
+
+.card img {
+    margin-left: 15px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.card h4 {
+    font-size: 15px;
+}
+
+.card p {
+    font-size: small;
+}
+
+.card #dataP {
+    font-family: sans-serif;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgb(0, 0, 0);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
