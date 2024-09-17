@@ -64,6 +64,7 @@ export default function Hotels() {
                     </div>
                     <p id="dataP">Floating in the middle of Lake Pichola, this 5-star resort offers ornate accommodations and top-notch amenities. Once featured in a James Bond movie, this island hotel has opulent suites with antique elements and spacious living rooms. Their restaurants serve European delicacies with rooftop dining options. They also have a chic bar, outdoor pool and spa.</p>
                 </div>
+            
             </div>
         </>
     )
