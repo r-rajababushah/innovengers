@@ -1,7 +1,7 @@
 export default function Hotels(){
     return (
         <>
-            Hello this is in hotel
+            Hello this is hotel page
         </>
     )
 }
