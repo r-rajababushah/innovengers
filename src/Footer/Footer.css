@@ -1,30 +1,23 @@
 .footer {
-    background-color: #3399ff;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 10px;
-    height: 80px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
-    list-style-type: none;
-}
-
-.reviewS p {
-    margin-left: 10px;
-    color: white;
-    font-size: large;
-}
-
-.helpS ul {
+    height: 50px;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
-.helpS ul li {
-    color: white;
-    margin-right: 25px;
-    font-size: large;
+.footer a {
+
+    text-decoration: none;
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
 }
 
+.footer a:hover {
+    text-decoration: underline;
+    transition: 0.4s;
+}

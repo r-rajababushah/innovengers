@@ -1,6 +1,6 @@
-import { Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
+import Footer from "../Footer/Footer";
 import "./Navigation.css";
-import "./Footer.css";
 
 export default function Navigation() {
     return (
@@ -11,26 +11,21 @@ export default function Navigation() {
                 </div>
                 <div className="menu">
                     <ul>
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">SEARCH</a></li>
-                        <li><a href="#">HOTELS</a></li>
-                        <li><a href="#">RESTURANTS</a></li>
-                        <li><a href="#">UNDERRATED PLACES</a></li>
-                        <li><a href="#">EMERGENCY NUMBER</a></li>
+                        <li><Link to={'/'}>HOME</Link></li>
+                        <li><Link to={'/Search'}>SEARCH</Link></li>
+                        <li><Link to={'/hotels'}>HOTELS</Link></li>
+                        <li><Link to={'/resturants'}>RESTURANTS</Link></li>
+                        <li><Link to={'/underratedplaces'}>UNDERRATED PLACES</Link></li>
+                        <li><Link to={'/emergencynumber'}>EMERGENCY NUMBERS</Link></li>
                     </ul>
                 </div>
                 <div className="signup">
-                    <a href="#">Sign Up</a>
+                    <Link to={'#'}>Sign Up / Log In</Link>
                 </div>
             </div>
             <Outlet />
-            <div className="footer">
-                <a href="#">Review</a>
-                <a href="#">Terms and Conditions</a>
-                <a href="#">Privacy Policy</a>
-                <a href="#">Help</a>
-                <a href="#">Complaints</a>
-            </div>
+            <Footer />
+           
         </>
     )
 }

@@ -1,0 +1,30 @@
+.EmergencyN {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+}
+
+.EmergencyN ol {
+    background-color: aliceblue;
+    position: absolute;
+    top: 230px;
+    left: 300px;
+}
+
+#iconE {
+    height: 100%;
+    width: 100%;
+}
+
+.EmergencyN ol li {
+    font-weight: bold;
+    color: red;
+    padding: 5px;
+    height: 30px;
+    width: 350px;
+    margin: 5px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
