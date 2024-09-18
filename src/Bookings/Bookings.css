@@ -1,0 +1,58 @@
+.bookings {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 85vh;
+    background-color: rgb(28, 66, 66);
+}
+
+.bookings .bookinghead {
+    padding: 10px
+
+}
+
+.bookings .bookinghead h3 {
+    text-align: center;
+    font-size: 26px;
+    color: green;
+}
+
+.bookings .bookinghead hr {
+    height: 2px;
+    color: red;
+    background-color: red;
+}
+
+.bookings .bookingForm {
+    border: 1px solid white;
+    padding: 10px;
+    font-size: large;
+}
+
+.bookings .bookingForm #name, #email, #message {
+    width: 400px;
+    height: 40px;
+    margin: 5px;
+    resize: none;
+    border: 2px solid green;
+    border-radius: 5px;
+    font-size: large;
+}
+
+input[type="submit"], #submit {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    margin-left: 200px;
+    border-radius: 10px;
+    border: 2px solid green;
+    color: green;
+    background-color: white;
+}
+
+input[type="submit"]:hover, #submit:hover{
+    background-color: green;
+    color: white;
+}
