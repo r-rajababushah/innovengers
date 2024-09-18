@@ -6,7 +6,7 @@ export default function Hotels() {
             <div className="hotels">
                 <div class="card">
                     <div className="imgT">
-                        <img src="hotel1.jpeg" id="hotelsI" />
+                        <img src="hotel1.jpeg" className="hotelsI" />
                         <div class="container">
                             <h4><b>The Oberoi New Delhi</b></h4>
                             <p>New Delhi, India</p>
