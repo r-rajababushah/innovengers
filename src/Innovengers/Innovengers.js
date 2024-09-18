@@ -16,22 +16,22 @@ export default function Innovengers() {
                 </div>
                 <div className="tours">
                     <div className="places">
-                        <h2>India</h2>
-                        <img src='./img1.png' style={{width: '300px', height: '250px', borderRadius: '12px'}} />
+                        <h2 style={{fontSize: '25.5px'}}>UTTAR PRADESH</h2>
+                        <img src='./img1.png' style={{width: '300px', height: '250px', borderRadius: '0 0 12px 12px'}} />
                         <br />
                         <br />
                         <a href="#">Book Now 15% OFF</a>
                     </div>
                     <div className="places">
-                        <h2>New York</h2>
-                        <img src='./img2.jpg' style={{width: '300px', height: '250px', borderRadius: '12px'}} />
+                        <h2>UTTRAKHAND</h2>
+                        <img src='himalaya.jpg' style={{width: '300px', height: '250px', borderRadius: '0 0 12px 12px'}} />
                         <br />
                         <br />
                         <a href="#">Book Now 20% OFF</a>
                     </div>
                     <div className="places">
-                        <h2>Thailand</h2>
-                        <img src='./img3.jpg' style={{width: '300px', height: '250px', borderRadius: '12px'}} />
+                        <h2>TAMILNADU</h2>
+                        <img src='./img3.jpg' style={{width: '300px', height: '250px', borderRadius: '0 0 12px 12px'}} />
                         <br />
                         <br />
                         <a href="#">Book Now 25% OFF</a>

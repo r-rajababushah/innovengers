@@ -7,6 +7,7 @@ import Navigation from "./Innovengers/Navigation";
 import Places from "./Places/Places";
 import Resturants from "./Resturants/Resturants";
 import Search from "./Search/Search";
+import Bookings from "./Bookings/Bookings";
 
 export default function App() {
     return (
@@ -19,6 +20,7 @@ export default function App() {
                     <Route path="/resturants" element={<Resturants />} />
                     <Route path="/underratedplaces" element={<Places />} />
                     <Route path="/emergencynumber" element={<EmergencyNumber />} />
+                    <Route path="/bookings" element={<Bookings />} />
                 </Route>
             </Routes>
         </BrowserRouter>

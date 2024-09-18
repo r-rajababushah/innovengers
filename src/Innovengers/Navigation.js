@@ -17,6 +17,8 @@ export default function Navigation() {
                         <li><Link to={'/resturants'}>RESTURANTS</Link></li>
                         <li><Link to={'/underratedplaces'}>UNDERRATED PLACES</Link></li>
                         <li><Link to={'/emergencynumber'}>EMERGENCY NUMBERS</Link></li>
+                        <li><Link to={'/bookings'}>BOOKINGS</Link></li>
+
                     </ul>
                 </div>
                 <div className="signup">
