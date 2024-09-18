@@ -7,7 +7,7 @@ export default function Navigation() {
         <>
             <div className="navbar">
                 <div className="logo">
-                    <img src="/logo.jpg" style={{ width: '100px', height: '82px', borderRadius: '5px' }} />
+                    <img src="/logo.jpg" alt="#" style={{ width: '100px', height: '82px', borderRadius: '5px' }} />
                 </div>
                 <div className="menu">
                     <ul>
