@@ -2,7 +2,6 @@
     margin: 10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: auto;
     border-radius: 5px;
     padding: 10px;
     overflow: hidden;
@@ -37,5 +36,5 @@
 }
 
 .placesCardi {
-  width: 150px !important;
+  width: 450px !important;
 }
