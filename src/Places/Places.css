@@ -35,3 +35,7 @@
     flex-flow: row wrap;
     width: auto;
 }
+
+.placesCardi {
+  width: 150px !important;
+}
